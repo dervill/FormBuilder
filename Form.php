@@ -7,7 +7,7 @@ include_once ('myTextarea.php');
  * Interface FormBase
  */
 interface FormBase{
-    public function createElement(string $type, string $name, string $value = '', array $attributes, string $formType = 'input');
+    public function createElement(string $type, string $name, string $value, array $attributes, string $formType);
     public function __toString();
 }
 
